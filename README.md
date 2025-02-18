@@ -1,36 +1,36 @@
-Interview Assignment - Rails
+# Interview Assignment - Rails
 
-Setup Instructions
+## Setup Instructions
 
-To set up and run the project, follow these steps:
+# To set up and run the project, follow these steps:
 
-Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/Amirasyraf222/Interview-Assignment-Rails---Amir-Asyraf.git
 
-Navigate to the project directory:
+## Navigate to the project directory:
 
 cd project
 
-Install dependencies:
+## Install dependencies:
 
 bundle install
 
-Run database migrations:
+## Run database migrations:
 
 rails db:migrate
 
-Start the Rails server:
+## Start the Rails server:
 
 rails server
 
-API Endpoints
+# API Endpoints
 
-Below is a list of API endpoints successfully tested in Postman.
+# Below is a list of API endpoints successfully tested in Postman.
 
-1. User Authentication
+# 1. User Authentication
 
-Sign Up
+## Sign Up
 
 Endpoint:
 
@@ -45,7 +45,7 @@ Example Request Body (JSON):
   "name": "Test User"
 }
 
-Sign In
+## Sign In
 
 Endpoint:
 
@@ -67,9 +67,9 @@ Note: For any authenticated API requests, include the following headers:
   "Content-Type": "application/json"
 }
 
-2. Car Battery Management
+# 2. Car Battery Management
 
-Create Car Battery
+## Create Car Battery
 
 Endpoint:
 
@@ -87,7 +87,7 @@ Example Request Body (JSON):
   }
 }
 
-Update Car Battery
+## Update Car Battery
 
 Endpoint:
 
@@ -105,19 +105,21 @@ Example Request Body (JSON):
   }
 }
 
-View Car Battery
+## View Car Battery
 
 Endpoint:
 
 GET http://localhost:3000/car_batteries/:id/view
 
-Delete Car Battery
+## Delete Car Battery
 
 Endpoint:
 
 DELETE http://localhost:3000/car_batteries/:id/delete
 
-Notes
+
+
+# Notes
 
 Ensure that the Rails server is running before making API requests.
 
