@@ -5,13 +5,14 @@
 ## Setup Instructions
 
 
-1. git clone <repository-url>
-2. cd <repository-folder>
+1. git clone https://github.com/Amirasyraf222/Interview-Assignment-Rails---Amir-Asyraf.git
+2. cd project
 3. bundle install
 4. rails db:migrate
-5. rails server
+5. rails db:migrate
+6. rails server
 
-These are the list of API succesfully tested in Postman : 
+## These are the list of API succesfully tested in Postman : 
 
 1. Sign Up - POST http://localhost:3000/auth
    
@@ -32,13 +33,16 @@ These are the list of API succesfully tested in Postman :
   "password_confirmation": "password123"
     }
 
-Note : For any authenticated API requests, make sure to include these headers:
+## Note : For any authenticated API requests, make sure to include these headers:
+
 {
   "access-token": "your_generated_token",
   "client": "your_client_id",
   "uid": "testuser@example.com",
   "Content-Type": "application/json"
 }
+
+
 
 3. Cars create - POST http://localhost:3000/car_batteries/create
 
